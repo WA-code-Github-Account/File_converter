@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 
-st.set_page_config(page_title="File Convertor",layout="wide")
+st.set_page_config(page_title="File Converter",layout="wide")
 st.title("File Convertor & Cleaner")
 st.write(" Upload csv or excel files, clean data, and convert formats.")
 files = st.file_uploader("Upload CSV or EXcel Files.", type=["csv","xlsx"],accept_multiple_files=True)
